@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-primary: #1d4ed8;
+/* App base adjustments */
+html, body, #root {
+  height: 100%;
 }
 
-body {
-  font-family: system-ui, sans-serif;
+:focus-visible {
+  outline: none;
 }
